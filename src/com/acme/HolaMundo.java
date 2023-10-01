@@ -2,6 +2,9 @@ package com.acme;
 
 public class HolaMundo {
     public static void main(String[] args) {
-        System.out.println("Hola Mundo");
+        Mensaje mensaje = new Mensaje();
+        String nombre = mensaje.solicitarDatos("Escribe tu nombre:");
+        mensaje.saludar(nombre);
+
     }
 }
