@@ -10,7 +10,7 @@ public class Mensaje {
 
     }
 
-    public void saludar(String nombre) {
-        System.out.println("Hola " + nombre);
+    public void saludar(Persona p) {
+        System.out.println("Hola " + p);
     }
 }
